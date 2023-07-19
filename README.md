@@ -3,7 +3,7 @@
 
 ## DIY 3D printed equatorial mount
 
-![3D_view](https://raw.githubusercontent.com/lordzurp/ZM-1/master/images/ZM-1_3D_view.png)
+![3D_view](https://raw.githubusercontent.com/lordzurp/ZM-1/main/Images/ZM-1_3D_view.png)
 
 #### BoM
 
