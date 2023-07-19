@@ -9,8 +9,8 @@
 
 ##### 3D parts
 
-* PETG parts : carter + support_batterie
-* PC-CF parts : base, bas, gauche, central, droite, 
+* PETG parts (60g) : carter + support_batterie
+* PC-CF parts (400g) : base, bas, gauche, central, droite, 
 
 ##### Screws
 
