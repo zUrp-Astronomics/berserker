@@ -5,6 +5,10 @@
 
 ![3D_view](https://raw.githubusercontent.com/lordzurp/ZM-1/main/Images/ZM-1_3D_view.png)
 
+Approximative cost : 350€ (with electronics)
+weight : 1.6 kg
+usable charge : TbD, but 3kg expected
+
 #### BoM
 
 ##### 3D parts
@@ -28,6 +32,8 @@
 ##### Electronic
 TeenAstro Redux (to be released)
 it can works with onstep, but you need to adapt case to fit your board
+
+ParkSide performance 20V battery
 
 ##### Screws
 
