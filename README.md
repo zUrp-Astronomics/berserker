@@ -9,6 +9,9 @@ Approximative cost : 350€ (with electronics)
 weight : 1.6 kg
 usable charge : TbD, but 3kg expected
 
+this is the v2, still work_in_progress, v3 exptected this fall
+DON'T build it now !
+
 #### BoM
 
 ##### 3D parts
