@@ -1,6 +1,9 @@
 # ZM-1
  ZM-1, aka Monique l'aventureuse des étoiles
 
+V2, seems working, still under validation
+V3 in progress, don't be hurry
+
 ## DIY 3D printed equatorial mount
 
 ![3D_view](https://raw.githubusercontent.com/lordzurp/ZM-1/main/Images/ZM-1_3D_view.png)
