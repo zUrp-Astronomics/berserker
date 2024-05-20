@@ -1,5 +1,7 @@
-# ZM-1
+# Berserker Mount
 ![GPL 3.0 License](https://img.shields.io/badge/GitHub-GPL--3.0-informational)
+
+# ⚠Work in Progress -NOT VALIDATED- don't build it⚠
 
  ZM-1, aka Monique l'aventureuse des étoiles
 
