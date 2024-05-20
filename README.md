@@ -1,7 +1,10 @@
 # ZM-1
+![GPL 3.0 License](https://img.shields.io/badge/GitHub-GPL--3.0-informational)
+
  ZM-1, aka Monique l'aventureuse des étoiles
 
 V2, seems working, still under validation
+
 V3 in progress, don't be hurry
 
 ## DIY 3D printed equatorial mount
