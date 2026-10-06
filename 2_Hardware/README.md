@@ -3,7 +3,7 @@
 **Date** : 2026-10-06
 **Dernière révision** : 2026-10-06
 **Statut** : actif — itération v2.1
-**Référencé par** : `README.md` (§ Directory layout)
+**Référencé par** : `README.md`
 
 Les sources 3D et la mécanique hors carte de Berserker. Ce qui s'imprime est dans `3_3D-Models/`.
 
