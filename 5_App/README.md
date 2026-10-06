@@ -3,7 +3,7 @@
 **Date** : 2026-10-06
 **Dernière révision** : 2026-10-06
 **Statut** : actif — vide, réservé aux itérations suivantes
-**Référencé par** : `README.md` (§ Directory layout)
+**Référencé par** : `README.md`
 
 Les applications côté PC ou téléphone qui parlent à Berserker.
 

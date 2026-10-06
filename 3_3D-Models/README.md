@@ -3,7 +3,7 @@
 **Date** : 2026-10-06
 **Dernière révision** : 2026-10-06
 **Statut** : actif — itération v2.1
-**Référencé par** : `README.md` (§ Directory layout)
+**Référencé par** : `README.md`
 
 Tout ce qui s'imprime, tiré de `2_Hardware/` : les plateaux prêts à trancher (`.3mf`) **et** le
 G-code déjà tranché (`.gcode`). Le G-code est rangé ici, et pas ailleurs, parce que ce dossier reçoit

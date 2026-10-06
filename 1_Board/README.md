@@ -3,7 +3,7 @@
 **Date** : 2026-10-06
 **Dernière révision** : 2026-10-06
 **Statut** : actif — vide, réservé aux itérations suivantes
-**Référencé par** : `README.md` (§ Directory layout)
+**Référencé par** : `README.md`
 
 Les fichiers de fabrication d'une carte électronique propre à Berserker, tels que les sort l'outil
 de CAO.

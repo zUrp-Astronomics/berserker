@@ -3,7 +3,7 @@
 **Date** : 2026-10-06
 **Dernière révision** : 2026-10-06
 **Statut** : actif
-**Référencé par** : `README.md` (§ Directory layout), le site zurp-astronomics.github.io
+**Référencé par** : `README.md`, le site zurp-astronomics.github.io
 
 Les ressources de Berserker pour l'extérieur : images des README et de la doc, et la **vitrine**
 lue par le site de l'org.

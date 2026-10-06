@@ -3,7 +3,7 @@
 **Date** : 2026-10-06
 **Dernière révision** : 2026-10-06
 **Statut** : actif — vide, réservé aux itérations suivantes
-**Référencé par** : `README.md` (§ Directory layout)
+**Référencé par** : `README.md`
 
 La documentation de Berserker : montage, réglages, notes de conception. Le README racine reste la
 porte d'entrée.

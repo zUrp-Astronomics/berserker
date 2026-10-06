@@ -3,7 +3,7 @@
 **Date** : 2026-10-06
 **Dernière révision** : 2026-10-06
 **Statut** : actif — vide, réservé aux itérations suivantes
-**Référencé par** : `README.md` (§ Directory layout)
+**Référencé par** : `README.md`
 
 Les datasheets des composants utilisés par Berserker (PDF du fabricant, nom d'origine). Rien de
 produit par le projet.
