@@ -1,0 +1,35 @@
+# SOURCE: zurp-astronomics-site — fiche vitrine de Berserker, lue par le site zurp-astronomics.github.io
+# AUTHOR: engineer
+# DATE: 2026-10-06
+# STATUS: active — transcrite mot pour mot de src/data/products.ts (site @ main 008e19e, ticket #49)
+#
+# Sa place est 9_Assets/zurp.yml dans le dépôt du produit. Tant que le dépôt ne la porte pas, le
+# site la lit ici, dans content/products/berserker/, au même format et avec le même code de validation
+# (src/lib/catalog/read.mjs). Migrer le produit = déplacer ce dossier, tel quel, dans 9_Assets/.
+#
+# Déduit, donc absent d'ici : le slug (nom du dossier, ou du dépôt, en minuscules → /berserker/), le
+# lien vers le dépôt (https://github.com/zUrp-Astronomics/berserker), la version
+# (tag de la dernière release GitHub), le rang dans sa section.
+
+name: Berserker
+tagline: State-of-the-art harmonic equatorial mount, 3D printed with CNC machined core.
+slogan: Forward to the stars
+category: Mount
+section: mounts           # mounts | cameras | gadgets | future
+status: wip               # wip | future | released — décidé par l'humain, jamais déduit d'une release
+
+description:
+  - >-
+    Berserker is a state-of-the-art harmonic equatorial mount. 3D printed outer body, CNC machined
+    structural core. Meant for heavier payloads than Kaiju — SCT, astrographs, long focal lengths.
+  - >-
+    The design mixes FDM for the accessible parts and machined alu for the precision and rigidity
+    surfaces. Open hardware all the way down — BOM, STEP, G-code, firmware.
+
+poster: berserker.webp    # à côté de cette fiche — l'affiche série 2 (1254 × 1254)
+posterAlt: >-
+  Berserker poster on a worn, chipped cream plate: an orange-plated mechanical centaur archer with
+  antlers, glowing eyes and a mane of orange flames draws its bow and looses a laser arrow, hooves
+  on rocky ground, in front of the full moon, orange rays and blueprint sketches, above the slogan
+  “Forward to the stars”.
+accent: '#f75404'         # couleur des rayons de l'affiche

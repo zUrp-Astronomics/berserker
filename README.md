@@ -1,71 +1,39 @@
-# Berserker - EQ Mount
-![GPL 3.0 License](https://img.shields.io/badge/GitHub-GPL--3.0-informational)
+<!-- En-tête vitrine : remplacer ce commentaire par le bloc de
+     https://github.com/zUrp-Astronomics/.github/blob/main/readme-kit/repos/<slug>.md
+     (affiche + badge de statut, servis par le site). Collé une fois, il se met à jour seul. -->
 
-# ⚠Work in Progress -NOT VALIDATED- don't build it⚠
+# Berserker — a 3D printed equatorial mount
 
- ZM-1, aka Monique l'aventureuse des étoiles
+**Date** : 2026-10-06
+**Status** : wip
+**Referenced by** : every user of this repository
 
-V2, seems working, still under validation
+Berserker is a DIY equatorial mount for astronomy, 3D printed.
 
-V3 in progress, don't be hurry
+> ⚠ **Work in progress — don't build it.** The project is still under development and nothing here
+> is validated.
 
-## DIY 3D printed equatorial mount
+The files in this repository are an **old iteration, v2.1** (formerly named ZM-1). The current
+design has evolved a lot since then and is not published here.
 
-![3D_view](https://raw.githubusercontent.com/lordzurp/ZM-1/main/Images/ZM-1_3D_view.png)
+## Directory layout
 
-Approximative cost : 350€ (with electronics)
-weight : 1.6 kg
-usable charge : TbD, but 3kg expected
+| folder | content |
+|---|---|
+| `0_Datasheets/` | component datasheets — empty for now, reserved |
+| `1_Board/` | electronic board manufacturing files — empty for now, reserved (v2.1 has no board of its own) |
+| `2_Hardware/` | 3D sources and mechanics: CAD source (`.f3d`), Vixen clamp (STEP + drawing), hardware BoM `Berserker-v2.1_4_Hardware_BoM.txt` |
+| `3_3D-Models/` | everything that gets printed: ready-to-slice plates (3MF) and sliced G-code |
+| `4_Firmware/` | firmware — empty for now, reserved |
+| `5_App/` | PC / phone applications — empty for now, reserved |
+| `6_Driver/` | drivers (INDI, ASCOM…) — empty for now, reserved |
+| `7_Docs/` | project documentation — empty for now, reserved |
+| `8_References/` | external reference documents — empty for now, reserved |
+| `9_Assets/` | README and doc images; showcase sheet `zurp.yml` and poster, read by the zUrp Astronomics site |
 
-this is the v2, still work_in_progress, v3 exptected this fall
-DON'T build it now !
+Empty folders only hold their README: they keep the place for later iterations.
 
-#### BoM
+## License
 
-##### 3D parts
-
-* PETG parts (60g) : carter + support_batterie
-* PC-CF parts (400g) : base, bas, gauche, central, droite, 
-
-##### Mechanics
-
-* stepper motor x2 : https://www.omc-stepperonline.com/nema-17-bipolar-0-9deg-11ncm-15-6oz-in-1-2a-3-6v-42x42x21mm-4-wires-17hm08-1204s
-* strain wave reducer x2 : https://fr.aliexpress.com/item/1005005537731414.html
-
-* gear B2GT-64T-5B-9 x2 : https://fr.aliexpress.com/item/1005003157185382.html
-* gear B2GT-16T-5B-6 x2 : https://fr.aliexpress.com/item/1005003157185382.html
-* belt 2GT176 x2 : https://fr.aliexpress.com/item/4000307124092.html
-
-* ball bearing 6005-26-2RS x1 : https://www.123roulement.com/roulement-palier/roulement-bille/simple-rangee/6005-26-2rs
-* ball bearing 61812-2RS x1 : https://www.123roulement.com/roulement-palier/roulement-bille/simple-rangee/61812-2rs
-* ball bearing HK1410 x2 : https://www.123roulement.com/roulement-palier/roulement-aiguilles/douille/hk1410-zen
-
-##### Electronic
-TeenAstro Redux (to be released)
-it can works with onstep, but you need to adapt case to fit your board
-
-ParkSide performance 20V battery
-
-##### Screws
-
-Flat head
-* M3x6 : x8
-* M3x30 : x8
-* M4x25 : x8
-* M4x70 : x2
-
-countersunk screw
-* M3x8 : x1
-* M3x20 : x1
-* M4x12 : x1
-* M4x25 : x8
-
-brass insert
-* M3 4x5.6 : x10
-* M4 5.6x8.2 : x15
-
-##### Aluminium CNC part
-
-* Platine Vixen
-
-sources files for ordening from https://www.JLCpcb.com
+The whole repository is licensed under the **Open Community License v1.1 (OCL v1.1), with no
+add-on**. See [`LICENSE`](LICENSE).
