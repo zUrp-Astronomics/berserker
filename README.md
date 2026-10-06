@@ -45,7 +45,15 @@ this repository yet. When a version comes out of the oven, it will be published 
 release. Until then, watch the repository, or follow the rest of the fleet at
 [zUrp Astronomics](https://github.com/zUrp-Astronomics).
 
+## Repository layout
+
+| folder | content |
+|---|---|
+| 2_Hardware/ | mechanics: parts (STEP), Fusion 360 design source (F3D), hardware, mechanical bill of materials |
+| 3_3D-Models/ | ready-to-print files (3MF) and their sliced G-code |
+| 9_Assets/ | README and documentation images; showcase sheet zurp.yml and poster, read by the zUrp site |
+
 ## License
 
 Open hardware, with no small print: the whole repository is licensed under the
-**Open Community License v1.1 (OCL v1.1), with no add-on**. See [`LICENSE`](LICENSE).
+**Open Community License v1.1 (OCL v1.1), with no add-on**. See [`LICENSE-HARDWARE`](LICENSE-HARDWARE).
