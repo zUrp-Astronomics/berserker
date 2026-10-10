@@ -1,59 +1,89 @@
-<!-- En-tête vitrine : remplacer ce commentaire par le bloc de
-     https://github.com/zUrp-Astronomics/.github/blob/main/readme-kit/repos/<slug>.md
-     (affiche + badge de statut, servis par le site). Collé une fois, il se met à jour seul. -->
+<!-- zurp-readme-header:begin — paste this block once, never again: the poster and the badges update themselves at each build of the site — do not edit it -->
+<div align="center">
+
+<a href="https://zurp-astronomics.github.io/berserker/"><img src="9_Assets/berserker.webp" alt="zUrp Astronomics product poster" width="420"></a>
+
+![status](https://img.shields.io/endpoint?url=https%3A%2F%2Fzurp-astronomics.github.io%2Fbrand%2Fstatus%2Fberserker.json)
+![software licence](https://zurp-astronomics.github.io/brand/badges/berserker/software.svg)
+![hardware licence](https://zurp-astronomics.github.io/brand/badges/berserker/hardware.svg)
+
+</div>
+
+<!-- zurp-readme-header:end -->
+
+<h1 align="center">Berserker</h1>
+
+<p align="center"><strong><em>Forward to the stars</em></strong></p>
 
 <p align="center">
-  <img src="9_Assets/berserker.webp" width="600" alt="Berserker poster on a worn, chipped cream plate: an orange-plated mechanical centaur archer with antlers, glowing eyes and a mane of orange flames draws its bow and looses a laser arrow, hooves on rocky ground, in front of the full moon, orange rays and blueprint sketches, above the slogan “Forward to the stars”.">
+  <a href="https://zurp-astronomics.github.io/berserker/">Website</a> ·
+  <a href="../../releases">Releases</a> ·
+  <a href="https://github.com/zUrp-Astronomics">zUrp Astronomics</a>
 </p>
 
-# Berserker — forward to the stars
+---
 
-**Date** : 2026-10-06
-**Status** : wip
-**Referenced by** : every user of this repository
+<div align="center">
 
-<h3 align="center">A ZWO AM3, 3D printed. Same class of mount, half the weight.</h3>
+## 🚧 Work in progress — do not build yet 🚧
 
-> [!WARNING]
-> **Nothing has come out of the oven yet. Do not build this.**
->
-> No version of Berserker has been released, and nothing here is validated. The files in this
-> repository are an **old iteration (v2.1)** that has nothing in common with the current design.
-> They are kept for the record. They are not a kit.
+**Nothing here is validated on real hardware.**<br>
+Files change without notice, and what you build today may need rework tomorrow.<br>
+👀 Watch the repository to know when the first release lands.
 
-## The pitch
+</div>
 
-The ZWO AM3 is a compact harmonic mount: a strain wave drive and a belt, and it runs in both
-equatorial and alt-azimuth modes. It is small enough to throw in a bag and has enough grip for real
-imaging. It set the standard for what a grab-and-go mount should be.
+---
 
-**Berserker brings that class of mount to your own printer.** It is AM3-class, at half the weight,
-and it is open hardware. You don't get a sealed box from a catalogue: you get a mount you can print,
-take apart, understand, repair and improve.
+## Why Berserker?
 
-- **AM3-class.** It plays in the same league as the compact harmonic mounts from the shop, not in
-  the toy aisle.
-- **Half the weight.** That means less to carry to the dark site and more night left once you're
-  there.
-- **3D printed.** The mount comes off a printer, not off a production line.
-- **Open, all the way.** The sources, models and files are all open. Fork it, hack it, own it.
+The ZWO AM3 set the standard for grab-and-go harmonic mounts: small enough to throw in a bag, strong
+enough for real imaging. **Berserker brings that class of mount to your own printer — at half the
+weight**, and built for the payloads that make small mounts sweat: a C5 or a C6, astrographs, long
+focal lengths. No sealed box from a catalogue: a mount you can print, take apart, understand, repair
+and improve.
 
-## Where it stands
+- **AM3-class.** The same league as the compact harmonic mounts from the shop — not the toy aisle.
+- **Half the weight.** Less to carry to the dark site, more night left once you are there.
+- **3D printed, core included.** The mount comes off a printer, not off a production line.
+- **Open all the way.** Sources, models and files. Fork it, hack it, own it.
 
-Berserker is in active development. The current design is on the bench, and you won't find it in
-this repository yet. When a version comes out of the oven, it will be published here with its
-release. Until then, watch the repository, or follow the rest of the fleet at
-[zUrp Astronomics](https://github.com/zUrp-Astronomics).
+## At a glance
+
+| | |
+|---|---|
+| Type | harmonic equatorial mount |
+| Class | ZWO AM3, at half the weight |
+| Construction | 3D printed, core included |
+| Payloads | a C5 or a C6, astrographs, long focal lengths |
+
+## Status & roadmap
+
+The current design is on the bench and is not in this repository yet. The files here are an **old
+iteration, v2.1**, kept for the record: they have nothing in common with the current design, and
+they are not a kit. The new design lands here with its first release.
+
+## Hardware (v2.1, archive)
+
+<p align="center"><img src="9_Assets/berserker-v2.1-3d.webp" alt="Berserker v2.1, 3D view" width="500"></p>
+
+- `2_Hardware/` — the Fusion 360 design source, the STEP parts and the mechanical bill of materials.
+- `3_3D-Models/` — the parts ready to print (3MF), and their G-code sliced for a Prusa MK3S, in PC
+  and PETG.
 
 ## Repository layout
 
-| folder | content |
+| Folder | Contents |
 |---|---|
-| 2_Hardware/ | mechanics: parts (STEP), Fusion 360 design source (F3D), hardware, mechanical bill of materials |
-| 3_3D-Models/ | ready-to-print files (3MF) and their sliced G-code |
-| 9_Assets/ | README and documentation images; showcase sheet zurp.yml and poster, read by the zUrp site |
+| [`2_Hardware/`](2_Hardware/) | mechanics outside the board: enclosure, parts, design sources, mechanical BoM |
+| [`3_3D-Models/`](3_3D-Models/) | ready-to-print files (3MF) and their sliced G-code |
+| [`9_Assets/`](9_Assets/) | the showcase: product sheet, poster and README images |
 
 ## License
 
-Open hardware, with no small print: the whole repository is licensed under the
-**Open Community License v1.1 (OCL v1.1), with no add-on**. See [`LICENSE-HARDWARE`](LICENSE-HARDWARE).
+- **Hardware design** — boards, mechanics and 3D models: [Open Community License v1.1](LICENSE-HARDWARE).
+- **Everything else** — firmware, software, documentation and images: [GNU GPL v3.0](LICENSE).
+
+---
+
+<p align="center"><sub><a href="https://zurp-astronomics.github.io/">zUrp Astronomics</a> — a subsidiary of zUrp Industries. Because buying is cheating.</sub></p>

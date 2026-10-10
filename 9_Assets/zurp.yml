@@ -12,7 +12,9 @@
 # (tag de la dernière release GitHub), le rang dans sa section.
 
 name: Berserker
-tagline: State-of-the-art harmonic equatorial mount, 3D printed with CNC machined core.
+tagline: >-
+  A harmonic equatorial mount in the ZWO AM3 class, fully 3D printed, at half the weight — built to
+  carry a C5 or a C6.
 slogan: Forward to the stars
 category: Mount
 section: mounts           # mounts | cameras | gadgets | future
@@ -20,11 +22,10 @@ status: wip               # wip | future | released — décidé par l'humain, j
 
 description:
   - >-
-    Berserker is a state-of-the-art harmonic equatorial mount. 3D printed outer body, CNC machined
-    structural core. Meant for heavier payloads than Kaiju — SCT, astrographs, long focal lengths.
+    Berserker is a state-of-the-art harmonic equatorial mount, 3D printed down to its core. Meant
+    for heavier payloads than Kaiju — a C5 or a C6, astrographs, long focal lengths.
   - >-
-    The design mixes FDM for the accessible parts and machined alu for the precision and rigidity
-    surfaces. Open hardware all the way down — BOM, STEP, G-code, firmware.
+    Open hardware all the way down — BOM, STEP, G-code.
 
 poster: berserker.webp    # à côté de cette fiche — l'affiche série 2 (1254 × 1254)
 posterAlt: >-
