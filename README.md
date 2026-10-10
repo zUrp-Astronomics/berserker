@@ -13,7 +13,7 @@
 
 <h1 align="center">Berserker</h1>
 
-<p align="center"><strong><em>Forward to the stars.</em></strong></p>
+<p align="center"><strong><em>Forward to the stars</em></strong></p>
 
 <p align="center">
   <a href="https://zurp-astronomics.github.io/berserker/">Website</a> ·
